@@ -40,7 +40,28 @@ nav ul li{
     display: inline;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
 
+nav ul li a:hover{
+    color:blueviolet;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
 /* Estilo do container de texto */
 .text-container{
