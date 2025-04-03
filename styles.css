@@ -65,22 +65,22 @@ nav ul li a:hover{
 
 /* Estilo do container de texto */
 .text-container{
-background-color: aquamarine;
-padding: 20px;
-border-radius: 8px;
-max-width: 600px;
-margin: 20px auto;     
+    flex: 1;
+    padding:20px;
 }
 
 /* Estilo do título */
-h1{
+.text-container h1{
+    font-size: 32px;
     color: purple;
+    margin-bottom: 20px;
 }
 
 /* Estilo do parágrafo */
-p{
+.text-container p{
     color: black;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 /* Estilo do container da imagem */
